@@ -1,0 +1,84 @@
+/* reset */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* estilos de contenedor*/
+
+.contenedor{
+    background-color: tomato;
+}
+
+/* estilos de caja */
+
+.caja{
+    background-color: whitesmoke;
+    width: 100px ;
+    height: 100px ;
+    margin:10px;
+    padding:10px ;
+    border: 3px solid black;
+    display: inline-block;
+}
+
+/* ejemplo */
+
+.ejemplo{
+    width: 200px;
+    height: 50px;
+    background-color: brown;
+    overflow: scroll;
+    display: none;
+}
+
+span{
+    background-color: crimson;
+    display: block;
+}
+
+/* ejemplo de posiciones */
+
+.item-relative{
+    position: relative;
+    top: 20px;
+    left: 30px;
+}
+
+.absolute{
+    position: relative;
+}
+
+.item-absolute{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+
+.item-fixed{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+
+/* estilos del menu*/
+
+.menu{
+    margin-top: 100px;
+    background-color: coral;
+    position: sticky;
+    top: 10px;
+    z-index: 2;
+}
+
+.menu ul li{
+    background-color: chocolate;
+    margin: 10px;
+    padding: 10px;
+
+    display: inline-block ;
+}
